@@ -6,7 +6,7 @@
 /*   By: ilallali <ilallali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 15:32:11 by ilallali          #+#    #+#             */
-/*   Updated: 2026/01/12 12:59:07 by ilallali         ###   ########.fr       */
+/*   Updated: 2026/01/12 13:15:57 by ilallali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <cctype>
 
 class Contact{
 	private:

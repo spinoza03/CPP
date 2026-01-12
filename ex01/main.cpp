@@ -6,7 +6,7 @@
 /*   By: ilallali <ilallali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/12 11:49:15 by ilallali          #+#    #+#             */
-/*   Updated: 2026/01/12 12:54:10 by ilallali         ###   ########.fr       */
+/*   Updated: 2026/01/12 13:12:51 by ilallali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int main (){
 			break;
 		}
 		else if (!command.empty()) {
-			std::cout << "Invlalid Command" << std::endl;
+			std::cout << "Invalid Command: [SEARCH, ADD, EXIT]" << std::endl;
 		}
 	}
 	return 0;
