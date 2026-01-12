@@ -6,7 +6,7 @@
 /*   By: ilallali <ilallali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 15:32:11 by ilallali          #+#    #+#             */
-/*   Updated: 2026/01/11 16:10:42 by ilallali         ###   ########.fr       */
+/*   Updated: 2026/01/12 12:47:06 by ilallali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 class Contact{
 	private:
@@ -25,47 +26,23 @@ class Contact{
 	std::string _darkestsecret;
 
 	public:
-	
-	void setFirstname(std::string first){
-		_firstname = first;
-	}
-	
-	void setLast(std::string last){
-		_lastname = last;
-	}
+		// Constructor & Destructor
+		Contact();
+		~Contact();
 
-	void setNickname(std::string nick){
-		_nickname = nick;
-	}
+		// Setters (Declarations ONLY - ending with ;)
+		void setFirstname(std::string first);
+		void setLast(std::string last);
+		void setNickname(std::string nick);
+		void setPhone(std::string phone);
+		void setDArk(std::string dark);
 
-	void setPhone(std::string phone){
-		_phonenumber = phone;
-	}
-
-	void setDArk(std::string dark){
-		_darkestsecret = dark;
-	}
-
-	std::string getFirst(){
-		return _firstname;
-	}
-	
-	std::string getlast(){
-		return _lastname;
-	}
-	
-	std::string getnick(){
-		return _nickname;
-	}
-
-	std::string getPhone(){
-		return _phonenumber;
-	}
-	
-	std::string getdark(){
-		return _darkestsecret;
-	}
-	
+		// Getters (Declarations ONLY - ending with ;)
+		std::string getFirst();
+		std::string getlast();
+		std::string getnick();
+		std::string getPhone();
+		std::string getdark();
 };
 
 #endif
