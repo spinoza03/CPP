@@ -6,17 +6,17 @@
 /*   By: ilallali <ilallali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/12 12:01:48 by ilallali          #+#    #+#             */
-/*   Updated: 2026/01/12 13:23:15 by ilallali         ###   ########.fr       */
+/*   Updated: 2026/01/13 09:42:57 by ilallali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Phone.hpp"
 
-phone::phone(){
+Phone::Phone(){
 	this->_index = 0;
 }
 
-phone::~phone() {}
+Phone::~Phone() {}
 
 std::string fixWidth(std::string str) {
     if (str.length() > 10)
@@ -34,7 +34,7 @@ bool isStringPrintable(std::string str) {
     return true;
 }
 
-void phone::addContact(){
+void Phone::addContact(){
 	std::string input;
 	int i = this->_index % 8;
 	
@@ -70,7 +70,7 @@ void phone::addContact(){
 	
 	input = "";
 	while (!isStringPrintable(input)) {
-		std::cout << "Enter phone number: ";
+		std::cout << "Enter Phone number: ";
         if (!std::getline(std::cin, input)) return;
 
 		if (!isStringPrintable(input))
@@ -92,7 +92,7 @@ void phone::addContact(){
     std::cout << "Contact added successfully to slot [" << i << "]" << std::endl;
 }
 
-void phone::searchContact() {
+void Phone::searchContact() {
 	int total = this->_index;
     if (total > 8)
         total = 8;

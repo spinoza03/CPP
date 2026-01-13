@@ -6,14 +6,14 @@
 /*   By: ilallali <ilallali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/12 11:49:15 by ilallali          #+#    #+#             */
-/*   Updated: 2026/01/12 13:12:51 by ilallali         ###   ########.fr       */
+/*   Updated: 2026/01/13 09:43:07 by ilallali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Phone.hpp"
 
 int main (){
-	phone book;
+	Phone book;
 	std::string command;
 	
 	while(1){
