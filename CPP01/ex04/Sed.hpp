@@ -6,7 +6,7 @@
 /*   By: ilallali <ilallali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/20 10:10:25 by ilallali          #+#    #+#             */
-/*   Updated: 2026/01/20 11:02:34 by ilallali         ###   ########.fr       */
+/*   Updated: 2026/01/20 11:12:46 by ilallali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-#include <cstddef>
-#include <ostream>
+
+
 
 class Sed {
 private:
