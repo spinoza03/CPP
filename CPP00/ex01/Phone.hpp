@@ -6,7 +6,7 @@
 /*   By: ilallali <ilallali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 16:19:16 by ilallali          #+#    #+#             */
-/*   Updated: 2026/01/13 09:42:21 by ilallali         ###   ########.fr       */
+/*   Updated: 2026/01/26 12:38:29 by ilallali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,14 @@
 
 #include "Contact.hpp"
 
-class Phone{
+class Phone{ 
 
-	private:
+	private:  
 	Contact _contacts[8];
 	int _index;
 
 	public:
-	Phone();
+	Phone(); 
 
 	~Phone();
 	void addContact();

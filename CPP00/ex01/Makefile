@@ -12,7 +12,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CXX) $(CXXFLAGS) $(OBJ) -o $(NAME)
 
-%.o: %.cpp
+%.o: %.cpp Phone.hpp Contact.hpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
