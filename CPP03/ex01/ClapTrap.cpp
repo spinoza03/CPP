@@ -6,15 +6,12 @@
 /*   By: allali <allali@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/05 01:40:32 by allali            #+#    #+#             */
-/*   Updated: 2026/02/05 01:41:12 by allali           ###   ########.fr       */
+/*   Updated: 2026/02/06 14:24:36 by allali           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
-// --- CONSTRUCTORS & DESTRUCTOR ---
-
-// 1. Default Constructor
 ClapTrap::ClapTrap() 
     : _name("Default"), _hitPoints(10), _energyPoints(10), _attackDamage(0) {
     std::cout << "ClapTrap Default Constructor called." << std::endl;
